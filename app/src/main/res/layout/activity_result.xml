@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+
+    <TextView
+        android:id="@+id/tvRIMC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seu IMC"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:padding="16dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tvIMC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="27.500"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:maxLength="6"
+        android:padding="16dp"
+        />
+
+    <TextView
+        android:id="@+id/tvImcT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Peso normal"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="16dp"
+        />
+
+    <Button
+        android:id="@+id/btnCalcNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular outro IMC"
+        />
+
+    <TextView
+        android:id="@+id/tvImcT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IMC menor que 16.5 Peso severamente abaixo do normal"
+        android:textSize="16dp"
+        android:textAlignment="textStart"
+        android:textStyle="italic"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvImcT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IMC entre 16.5 e 18 Peso abaixo do normal"
+        android:textSize="16dp"
+        android:textAlignment="textStart"
+        android:textStyle="italic"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvImcT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IMC entre 18.5 e 24.9 Peso normal"
+        android:textSize="16dp"
+        android:textAlignment="textStart"
+        android:textStyle="italic"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvImcT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IMC entre 25 e 29.9 Sobrepeso"
+        android:textSize="16dp"
+        android:textAlignment="textStart"
+        android:textStyle="italic"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvImcT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IMC entre 30 e 34.9 Obesidade I"
+        android:textSize="16dp"
+        android:textAlignment="textStart"
+        android:textStyle="italic"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvImcT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IMC entre 35 e 39.9 Obesidade II"
+        android:textSize="16dp"
+        android:textAlignment="textStart"
+        android:textStyle="italic"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvImcT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IMC maior que 40 Obesidade Mórbida"
+        android:textSize="16dp"
+        android:textAlignment="textStart"
+        android:textStyle="italic"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvImcT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Caso necessário, sempre procure um profissional qualificado, tratamentos por conta própria podem trazer riscos à saúde."
+        android:textSize="20dp"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:padding="10dp"
+        />
+
+
+
+</LinearLayout>
