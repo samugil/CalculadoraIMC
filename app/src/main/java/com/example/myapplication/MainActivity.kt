@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
 
         btnCal.setOnClickListener {
-            CalcIMC()
+            calcIMC()
         // codigo comentado para uso da função
 //            val AlturaStr = edtAltura.text.toString()
 //            val PesoStr = edtPeso.text.toString()
@@ -53,23 +53,21 @@ class MainActivity : AppCompatActivity() {
     }
 
     // criada nova função
-    fun CalcIMC ( edtPeso: EditText = findViewById(R.id.edtPeso), edtAltura: EditText = findViewById(R.id.edtAltura)) {
+    fun calcIMC ( edtPeso: EditText = findViewById(R.id.edtPeso), edtAltura: EditText = findViewById(R.id.edtAltura)) {
 
-        val AlturaStr = edtAltura.text.toString()
-        val PesoStr = edtPeso.text.toString()
+        val alturaStr = edtAltura.text.toString()
+        val pesoStr = edtPeso.text.toString()
 
-        if (AlturaStr.isNotEmpty() && PesoStr.isNotEmpty()) {
-            val altura: Float = AlturaStr.toFloat()
-            val peso: Float = PesoStr.toFloat()
+        if (alturaStr.isNotEmpty() && pesoStr.isNotEmpty()) {
+            val altura: Float = alturaStr.toFloat()
+            val peso: Float = pesoStr.toFloat()
             val result: Float = peso / (altura * altura)
 
 
 
-            val intentResult = Intent(this, ResultActivity::class.java)
-                .apply {
-                    putExtra("Extra_Result", result)
-                }
+            val intentResult = ResultActivity.startIntent(this, result)
             startActivity(intentResult)
+
 
         } else {
             Toast.makeText(this, "Por favor preencher todos os campos", Toast.LENGTH_SHORT)
