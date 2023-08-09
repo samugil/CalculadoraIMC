@@ -21,10 +21,11 @@ Calculadora de IMC foi um aplicativo que desenvolvi para dar meus primeiros pass
 - Intent Explicita para abrir a segunda Activity
 - FindViewById para recuperar components de UI
 - String resource para concatenação de textos
+- Styles
+- Icon
+- Functions
 
 
-### TO DO
-- Melhorar estilização do app
 
 ## Author
 Samuel Rocha Gil (follow me on [LinkedIn](https://www.linkedin.com/in/samuel-dos-santos-gil-a1ab852a/))
