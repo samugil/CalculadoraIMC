@@ -1,5 +1,5 @@
 # Calculadora IMC
-Calculadora de IMC foi um aplicativo que desenvolvi para dar meus primeiros passos com desenvolvimento Android. Eu participei do desafio 10D na comunidade DevSpace e consegui sair do ZERO. 
+Calculadora de IMC foi meu primeiro aplicativo que desenvolve para dar meus primeiros passos com desenvolvimento Android. Eu o desenvolvi em um Desafio de 10 dias na comunidade DevSpace.
 
 
 
@@ -21,10 +21,11 @@ Calculadora de IMC foi um aplicativo que desenvolvi para dar meus primeiros pass
 - Intent Explicita para abrir a segunda Activity
 - FindViewById para recuperar components de UI
 - String resource para concatenação de textos
+- Styles
+- Icon
+- Functions
 
 
-### TO DO
-- Melhorar estilização do app
 
 ## Author
 Samuel Rocha Gil (follow me on [LinkedIn](https://www.linkedin.com/in/samuel-dos-santos-gil-a1ab852a/))
